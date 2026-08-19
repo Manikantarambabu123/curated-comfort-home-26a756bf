@@ -23,7 +23,7 @@ const title = "Shop Furniture & Home Décor — Lumora";
 const description =
   "Browse the full Lumora catalog: sofas, chairs, tables, beds, dining, storage, lighting and décor. Filter by price, colour, material and size.";
 
-export const Route = createFileRoute("/shop")({
+export const Route = createFileRoute("/shop/")({
   head: () => ({
     meta: [
       { title },
