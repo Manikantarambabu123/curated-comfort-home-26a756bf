@@ -71,7 +71,7 @@ export function findProduct(id: string): CatalogProduct {
   return (
     catalogProducts.find((p) => p.id === id) ??
     catalogProducts.find((p) => p.id === "arlo-lounge-sofa") ??
-    catalogProducts[0]
+    catalogProducts[0]!
   );
 }
 
